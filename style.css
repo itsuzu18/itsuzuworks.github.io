@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fcfbf8;
+  color: #111;
+}
+
+header, section {
+  padding: 60px 8vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  border: 2px solid #111;
+  padding: 24px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
